@@ -1,0 +1,11 @@
+th:nth-child(even),td:nth-child(even){
+    background-color:cyan;
+    color:red;
+
+}
+table{
+    background-color:pink;
+}
+td,tr,th{
+    align-items: center;
+}
