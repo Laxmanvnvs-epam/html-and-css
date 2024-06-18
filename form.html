@@ -5,24 +5,35 @@
         <style></style>
     </head>
     <body>
-        <form>
+        <form align="center" >
             <label for="name">name:</label>
-            <input type="text">
+            <input type="text" placeholder="enter the name" required><br>
             <label for="birthday">date of birth:</label>
-            <input type="date">
+            <input type="date"><br>
+            <label for="age">age</label>
+            <input id="age" type="number" min="18" max="120" placeholder="age in number"><br>
             <label for="time">time of entry:</label>
-            <input type="datetime">
+            <input type="datetime"><br>
             <label for="more info">with local time</label>
-            <input type="datetime-local">
-            <label for="radio">choose the correct option</label>
-            <input type="radio" value="1">
-            <label></label>
-            <input type="radio" value="2">
-            <input type="radio" value="3">
+            <input type="datetime-local"><br>
             <label for="multiple options">multi correct</label>
-            <input type="checkbox">
+            <input type="checkbox"><br>
             <label for="range">expected number</label>
-            <input type="range" valuemax="1" valuemin="0">
+            <input type="range" valuemax="1" valuemin="0" disabled><br>
+            <label>gender</label>
+            <input type="radio"  name="gender" >
+            <lable >male</lable>
+            <input type="radio" name="gender" >
+            <lable >female</lable>
+            <input type="radio"  name="gender" >
+            <lable >others</lable><br>
+            <label>email</label>
+            <input type="email"><br>
+            <label for="default value">default</label>
+            <input id="default" type="tel" placeholder="766687" readonly><br>
+            <label for="'autocomplete">autocomplete</label>
+            <input id="autocomplete" autocomplete="on"><br>
+            <input type="button" value="submit">
         </form>
     </body>
 </html>
